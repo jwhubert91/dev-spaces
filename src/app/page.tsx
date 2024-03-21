@@ -1,9 +1,13 @@
 // import Image from "next/image"
 
+import PersonCard from "@/components/personCard"
+
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <main className="flex-1 flex flex-col">
+      <div className="flex-1 flex flex-col w-full max-w-[900px] mx-auto p-5">
+        <PersonCard />
+      </div>
     </main>
   )
 }
